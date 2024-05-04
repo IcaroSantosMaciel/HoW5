@@ -1,0 +1,227 @@
+@charset "UTF-8";
+
+body {
+    background-color: #ffffff;
+    font-family: 'Josefin Sans';
+    margin: 0px;
+}
+h1{
+    background-color: #FFC8CB;
+    display: flex;
+    width: auto%;
+    height: 225px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans';
+    font-size: 64px;
+    font-weight: normal;
+
+}
+#menu{
+    background-color: #000;
+    display: flex;
+    width: auto%;
+    height: 52px;
+    margin: 0px;
+    justify-content: right;
+}
+.opcaomenu{
+    background-color: #4e4e4e;
+    color: #d9d9d9;
+    font-size: 20px;
+    width: 100px;
+    height: 52px;
+    border: none;
+    cursor: pointer;
+}
+.opcaomenu:hover{
+    background-color: #9c9999;
+}
+.iconhome{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin-right: 20px;
+}
+.iconcompras{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+#infocomp{
+    display: flex;
+    padding: 50px;
+}
+.camisa{
+    padding: 6px;
+    border: solid 1px rgb(105, 105, 105);
+}
+.camt{
+    margin-left: 50px;
+    font-size: 40px;
+    font-weight: 300;
+}
+.paleta{
+    margin-left: 50px;
+}
+.valor{
+    margin-left: 50px;
+    font-size: 50px;
+    font-weight: 300;
+}
+#frete{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+#frete input{
+    width: 150px;
+    height: 40px;
+    padding-left: 30px;
+}
+#dados h2{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.dado0{
+    display: flex;
+    margin-left: 50px;
+    padding: 5px;
+}
+.dado0 input{
+    width: 500px;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.dado0 h3{
+    margin-left: 20px;
+    font-weight: 400;
+}
+.dado1{
+    display: flex;
+    margin-left: 50px;
+    padding: 5px;
+}
+.dado1 input{
+    width: 200px;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.dado1 h3{
+    margin-left: 20px;
+    font-weight: 400;
+}
+.dado2{
+    display: flex;
+    margin-left: 50px;
+    padding: 5px;
+}
+.dado2 input{
+    width: 200px;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.dado2 h3{
+    margin-left: 20px;
+    font-weight: 400;
+}
+.dado3{
+    display: flex;
+    margin-left: 50px;
+    padding: 5px;
+}
+.dado3 input{
+    width: 200px;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.dado3 h3{
+    margin-left: 20px;
+    font-weight: 400;
+}
+.dado4{
+    display: flex;
+    margin-left: 50px;
+    padding: 5px;
+}
+.dado4 input{
+    width: 200px;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.dado4 h3{
+    margin-left: 20px;
+    font-weight: 400;
+}
+.dado5{
+    display: flex;
+    margin-left: 50px;
+    padding: 5px;
+}
+.dado5 input{
+    width: 200px;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.dado5 h3{
+    margin-left: 20px;
+    font-weight: 400;
+}
+#pag{
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#pag ul{
+    list-style-type: circle;
+}
+#pag ul li{
+    font-size: 20px;
+    margin-top: 10px;
+}
+#produtos{
+    margin-left: 70px;
+}
+#produtos h3{
+    font-weight: 500;
+}
+#total{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 70px ;
+    margin-bottom: 150px;
+}
+#total h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+#total button{
+    margin-left: 450px;
+    margin-top: 10px;
+    width: 300px;
+    height: 80px;
+    background-color: #37CD8F;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 7px;
+}
+#total button:hover{
+    background-color: #1f8f60;
+    cursor: pointer;
+}
+#total button:active{
+    background-color: #0f5f3e;
+}

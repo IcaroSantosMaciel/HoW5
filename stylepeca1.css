@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+body {
+    background-color: #ffffff;
+    font-family: 'Josefin Sans';
+    margin: 0px;
+}
+h1{
+    background-color: #FFC8CB;
+    display: flex;
+    width: auto%;
+    height: 225px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans';
+    font-size: 64px;
+    font-weight: normal;
+
+}
+#menu{
+    background-color: #000;
+    display: flex;
+    width: auto%;
+    height: 52px;
+    margin: 0px;
+    justify-content: right;
+}
+.opcaomenu{
+    background-color: #4e4e4e;
+    color: #d9d9d9;
+    font-size: 20px;
+    width: 100px;
+    height: 52px;
+    border: none;
+    cursor: pointer;
+}
+.opcaomenu:hover{
+    background-color: #9c9999;
+}
+.iconhome{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin-right: 20px;
+}
+.iconcompras{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+#box{
+    display: flex;
+}
+#submenu {
+    background-color: #bebebe;
+    width: 300px;
+    height: 1700px;
+    margin: 0px;
+    font-family: 'Josefin Sans';
+    font-weight: normal;
+}
+.opcao{
+    background-color: #d9d9d9;
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.opcao:hover{
+    background-color: #9c9999;
+}
+.opcao:active{
+    background-color: #9c9999;
+}
+#peca{
+    display: flex;
+    flex-wrap: wrap;
+}
+.edpeca{
+    height: 505px;
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 100px;
+    padding: 10px;
+    border: solid 1px rgb(175, 175, 175);
+}
+.prod{
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+.tommy{
+    font-size: 50px;
+    margin-left: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+.cores{
+    margin-left: 80px;
+}
+.paleta{
+    padding: 10px;
+}
+.paleta:hover{
+    cursor: pointer;
+}
+.paleta:active{
+    border: solid 1px #000;
+}
+.tamanho{
+    margin-top: 40px;
+    margin-left: 110px;
+    display: flex;
+    flex-direction: row;
+}
+.tam{
+    font-weight: 300;
+    font-size: 30px;
+    padding: 10px;
+    border: solid 1px rgb(175, 175, 175);
+    margin: 10px;
+}
+.tam:hover{
+    background-color: #9c9999;
+    cursor: pointer;
+}
+#butcomp{
+    padding: 40px;
+}
+.comprar{
+    background-color: #37CD8F;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    border: none;
+}
+.comprar:hover{
+    background-color: #77ecbb;
+    cursor: pointer;
+}
+.comprar:active{
+    background-color: #1f6d4c;
+}
+.sacola{
+    background-color: #767676;
+    margin-left: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    width: 80px;
+    height: 50px;
+    border: none;
+}
+.sacola:hover{
+    background-color: #a5a5a5;
+    cursor: pointer;
+}
+.sacola:active{
+    background-color: #4e4e4e;
+}
+#descreve{
+    margin-left: 200px;
+    margin-bottom: 300px;
+    font-size: 20px;
+}
+.tecido{
+    margin-top: 100px;
+}
+.quebra{
+    margin-top: 100px;
+}

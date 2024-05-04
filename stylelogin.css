@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+body {
+    background-color: #ffffff;
+    font-family: 'Josefin Sans';
+    margin: 0px;
+}
+h1{
+    background-color: #FFC8CB;
+    display: flex;
+    width: auto%;
+    height: 225px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans';
+    font-size: 64px;
+    font-weight: normal;
+
+}
+#menu{
+    background-color: #000;
+    display: flex;
+    width: auto%;
+    height: 52px;
+    margin: 0px;
+    justify-content: right;
+}
+.opcaomenu{
+    background-color: #4e4e4e;
+    color: #d9d9d9;
+    font-size: 20px;
+    width: 100px;
+    height: 52px;
+    border: none;
+    cursor: pointer;
+}
+.opcaomenu:hover{
+    background-color: #9c9999;
+}
+.iconhome{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin-right: 20px;
+}
+.iconcompras{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+#logar{
+    background-color: #707070;
+    font-family: 'Josefin Sans';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-20%);
+    padding: 50px;
+}
+.acessar{
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 300;
+}
+.info{
+    padding: 10px;
+    padding-right: 150px;
+    outline: none;
+}
+.botao{
+    background-color: #000;
+    margin-left: 100px;
+    width: 150px;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.botao:hover{
+    background-color: #292929;
+}
